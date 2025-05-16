@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist Consulta | HC Saúde Digital</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="./favicons/favicon-16x16.png" />
+  <script defer src="./js/script-2.js"></script>
+  
+</head>
+<body>
+  <header>
+    <img src="imgs/hc.png" alt="Hospital das Clínicas" class="logo">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="checklist">
+    <h1>Checklist de Preparação</h1>
+    <p>Veja se está tudo certo para sua consulta online</p>
+
+    <form id="checklistForm">
+        <label><input type="checkbox" name="item"> Estou com o celular carregado</label>
+        <label><input type="checkbox" name="item"> Tenho acesso à internet/Wi-Fi</label>
+        <label><input type="checkbox" name="item"> Recebi o link da consulta</label>
+        <label><input type="checkbox" name="item"> Sei o horário da minha consulta</label>
+        <label><input type="checkbox" name="item"> Estou em um local tranquilo para conversar</label>
+
+        <button type="button" onclick="verificarChecklist()">Verificar</button>
+    </form>
+
+    <div class="resultado" id="resultado"></div>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hospital das Clínicas - Projeto Saúde Digital FIAP</p>
+  </footer>
+</body>
+</html>
