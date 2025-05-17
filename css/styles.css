@@ -223,6 +223,54 @@
     color: white;
     text-decoration: none;
 }
+.checklist h1 {
+    text-align: center;
+}
+.checklist p {
+    text-align: center;
+    margin-bottom: 2%;
+}
+#checklistForm {
+    margin-bottom: 2%;
+}
+.contato h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+.integrantes h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+.solucao h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    line-height: 250%;
+    
+}
+.solucao p {
+    text-indent: 2%;
+    line-height: 200%;
+}
+.solucao ul li {
+    margin-left: 3%;
+    line-height: 200%;
+}
+.ajuda-direta div {
+    margin-left: 10%;
+    line-height: 250%;
+}
+.ajuda-direta h1 {
+    text-align: center;
+}
+.resumo {
+    margin-left: 10%;
+}
+.resumo p {
+    text-indent: 2%;
+}
+.resumo ul li {
+    margin-left: 2%;
+}
   
   /* Responsividade */
   @media (max-width: 600px) {
