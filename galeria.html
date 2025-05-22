@@ -6,10 +6,13 @@
   <title>Galeria de Vídeos | HC Saúde Digital</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicons/favicon-16x16.png">
+  <script defer src="./js/script.js"></script>
 </head>
 <body>
   <header>
-    <img src="imgs/hc.png" alt="Hospital das Clínicas" class="logo">
+    <a href="index.html">
+      <img src="imgs/hc.png" alt="Logotipo do Hospital das Clínicas" class="logo" />
+    </a>
     <nav class="navbar">
       <ul>
         <li><a href="index.html">Início</a></li>
@@ -27,36 +30,42 @@
     <p>Assista aos tutoriais e aprenda a usar o aplicativo de forma fácil e rápida.</p>
 
     <section class="videos">
-      <div class="video-item">
+      <article class="video-item">
         <h2>Como fazer o primeiro acesso</h2>
-        <video controls>
-          <source src="videos/Cópia de PRIMEIRO ACESSO.mp4" type="video/mp4">
-          Seu navegador não suporta a reprodução de vídeos.
-        </video>
-      </div>
+        <figure>
+          <video controls>
+            <source src="videos/Cópia de PRIMEIRO ACESSO.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+          </video>
+          <figcaption>Tutorial sobre como fazer o primeiro acesso ao aplicativo.</figcaption>
+        </figure>
+      </article>
 
-      <div class="video-item">
+      <article class="video-item">
         <h2>Como acessar consulta</h2>
-        <video controls>
-          <source src="videos/Cópia de Acesso ao Portal.mp4" type="video/mp4">
-          Seu navegador não suporta a reprodução de vídeos.
-        </video>
-      </div>
+        <figure>
+          <video controls>
+            <source src="videos/Cópia de Acesso ao Portal.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+          </video>
+          <figcaption>Explicação sobre como acessar a consulta no aplicativo.</figcaption>
+        </figure>
+      </article>
     </section>
 
     <section class="app-download">
-    <h2>Instale o aplicativo do HC</h2>
-    <p>Baixe agora em seu celular:</p>
-    <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente&pcampaignid=web_share" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Disponível no Google Play">
+      <h2>Instale o aplicativo do HC</h2>
+      <p>Baixe agora em seu celular:</p>
+      <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente&pcampaignid=web_share" target="_blank" aria-label="Baixar no Google Play">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Disponível no Google Play">
         </a>
-        <a href="https://apps.apple.com/br/app/portal-do-paciente-hc/id1572694502" target="_blank">
-        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Disponível na App Store">
+        <a href="https://apps.apple.com/br/app/portal-do-paciente-hc/id1572694502" target="_blank" aria-label="Baixar na App Store">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Disponível na App Store">
         </a>
-    </div>
+      </div>
     </section>
-    </main>
+  </main>
 
   <footer>
     <p>&copy; 2025 Hospital das Clínicas - Projeto Saúde Digital - Challenge - FIAP</p>
