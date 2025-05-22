@@ -333,7 +333,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-   .botao-container {
+.botao-container {
       display: flex;
       gap: 20px;
       justify-content: center;
@@ -397,6 +397,10 @@
 
   .store-buttons img:hover {
     transform: scale(1.05);
+  }
+
+  .main-ajuda h1 {
+    text-align: center;
   }
 
     

@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="./favicons/favicon-16x16.png" />
   <script defer src="./js/script-2.js"></script>
-  
 </head>
 <body>
   <header>
-    <img src="imgs/hc.png" alt="Hospital das Clínicas" class="logo">
+    <a href="index.html">
+      <img src="imgs/hc.png" alt="Logotipo do Hospital das Clínicas" class="logo" />
+    </a>
     <nav class="navbar">
       <ul>
         <li><a href="index.html">Início</a></li>
@@ -28,18 +29,19 @@
     <h1>Checklist de Preparação</h1>
     <p>Veja se está tudo certo para sua consulta online</p>
 
-    <form id="checklistForm">
-        <label><input type="checkbox" name="item"> Estou com o celular carregado</label>
-        <label><input type="checkbox" name="item"> Tenho acesso à internet/Wi-Fi</label>
-        <label><input type="checkbox" name="item"> Recebi o link da consulta</label>
-        <label><input type="checkbox" name="item"> Sei o horário da minha consulta</label>
-        <label><input type="checkbox" name="item"> Estou em um local tranquilo para conversar</label>
+    <section>
+      <form id="checklistForm">
+          <label for="item1"><input type="checkbox" id="item1" name="item"> Estou com o celular carregado</label>
+          <label for="item2"><input type="checkbox" id="item2" name="item"> Tenho acesso à internet/Wi-Fi</label>
+          <label for="item3"><input type="checkbox" id="item3" name="item"> Recebi o link da consulta</label>
+          <label for="item4"><input type="checkbox" id="item4" name="item"> Sei o horário da minha consulta</label>
+          <label for="item5"><input type="checkbox" id="item5" name="item"> Estou em um local tranquilo para conversar</label>
 
-        <button type="button" onclick="verificarChecklist()">Verificar</button>
-    </form>
+          <button type="button" onclick="verificarChecklist()" aria-label="Verificar checklist">Verificar</button>
+      </form>
+    </section>
 
     <div class="resultado" id="resultado"></div>
-    
   </main>
 
   <footer>

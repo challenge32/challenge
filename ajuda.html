@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Central de ajuda do HC Saúde Digital, com informações sobre como acessar a consulta, checklist e atendimento de suporte.">
   <title>Ajuda | HC Saúde Digital</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="hc.png">
+  <link rel="icon" href="hc.png" sizes="16x16">
+  <link rel="icon" href="hc.png" sizes="32x32">
+  <script defer src="./js/script.js"></script>
 </head>
 <body>
   <header>
-    <img src="imgs/hc.png" alt="Hospital das Clínicas" class="logo">
+    <a href="index.html">
+      <img src="imgs/hc.png" alt="Logotipo do Hospital das Clínicas" class="logo" />
+    </a>
     <nav class="navbar">
       <ul>
         <li><a href="index.html">Início</a></li>
@@ -22,12 +27,12 @@
     </nav>
   </header>
 
-  <main class="ajuda">
+  <main class="main-ajuda">
     <h1>Central de Ajuda</h1>
     <section class="ajuda-opcoes">
-        <a class="botao" href="como-acessar.html">📱 Como acessar a consulta</a>
-        <a class="botao" href="checklist.html">✅ Estou pronto para a consulta?</a>
-        <a class="botao" href="preciso-ajuda.html">📞 Preciso de ajuda agora</a>
+        <a class="botao" href="como-acessar.html" aria-label="Instruções sobre como acessar a consulta">📱 Como acessar a consulta</a>
+        <a class="botao" href="checklist.html" aria-label="Checklist para estar pronto para a consulta">✅ Estou pronto para a consulta?</a>
+        <a class="botao" href="preciso-ajuda.html" aria-label="Opção para contato direto em caso de urgência">📞 Preciso de ajuda agora</a>
     </section>
   </main>
   
