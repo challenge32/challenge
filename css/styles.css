@@ -239,20 +239,7 @@
     text-align: center;
     margin-bottom: 3%;
 }
-.solucao h1 {
-    text-align: center;
-    margin-bottom: 2%;
-    line-height: 150%;
-    
-}
-.solucao p {
-    text-indent: 2%;
-    line-height: 200%;
-}
-.solucao ul li {
-    margin-left: 3%;
-    line-height: 200%;
-}
+
 .ajuda-direta div {
     margin-left: 10%;
     line-height: 250%;
@@ -261,7 +248,8 @@
     text-align: center;
 }
 .resumo {
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .resumo p {
     text-indent: 2%;
@@ -299,10 +287,13 @@
   transition: background-color 0.3s;
 }
 .galeria-botao {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 15%;             
   margin-top: 2rem;
-  text-align: center;
+  margin-left: 10%;
 }
-
  .botao-ajuda:hover {
     background-color: #00a896;
   }
@@ -402,7 +393,10 @@
   .main-ajuda h1 {
     text-align: center;
   }
-
+ 
+  .passos li {
+    list-style: none;
+  }
     
   @media (min-width: 600px) {}
   
