@@ -1,4 +1,6 @@
-
+Aluno: Pedro Henrique Costa - RM: 559932 - Turma: 1TDSPV.
+Aluna: Júlia Menezes - RM: 565568 - Turma: 1TDSPV.
+Nome do grupo: Digital Squad
 
 # 💻 Site de Apoio à Teleconsulta – IMREA-HCFMUSP
 
