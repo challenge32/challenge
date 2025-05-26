@@ -83,4 +83,8 @@ Criar um ponto central de apoio para instruções, reduzindo dificuldades com a 
 
 https://github.com/challenge32/challenge
 
+#Link convite Organizations Github:
+
+https://github.com/challenge32/challenge/invitations
+
 &copy; 2025 - FIAP | Hospital das Clínicas | Projeto Saúde Digital
